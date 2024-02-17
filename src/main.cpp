@@ -1,18 +1,15 @@
 #include <Arduino.h>
+#include "Quadriscope.h"
 
-// put function declarations here:
-int myFunction(int, int);
+Quadriscope scope;
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+void setup() 
+{
+  scope.init();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop() 
+{
+  scope.tick();
 }
 
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
