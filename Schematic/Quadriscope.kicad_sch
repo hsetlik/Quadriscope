@@ -5,10 +5,11 @@
   (paper "User" 500.38 299.72)
 
   (title_block
-    (title "Eurorack 4-Ch Oscilloscope")
+    (title "Quadriscope")
     (date "2024-02-15")
     (rev "2")
     (company "Hayden Setlik")
+    (comment 1 "Eurorack 4-Ch Oscilloscope")
   )
 
   (lib_symbols
@@ -2024,9 +2025,6 @@
   (junction (at 191.77 42.545) (diameter 0) (color 0 0 0 0)
     (uuid 07d324e6-8a11-494b-b747-48433c258bd3)
   )
-  (junction (at 189.865 250.19) (diameter 0) (color 0 0 0 0)
-    (uuid 0a4160b8-fba0-4e2e-b380-eca478726be5)
-  )
   (junction (at 99.06 59.055) (diameter 0) (color 0 0 0 0)
     (uuid 0b8864e4-ff3b-40bc-97c8-b11905203399)
   )
@@ -2105,6 +2103,9 @@
   (junction (at 29.21 131.445) (diameter 0) (color 0 0 0 0)
     (uuid 6ed5883a-fd1c-46f8-84c2-13e6795039cc)
   )
+  (junction (at 189.865 249.555) (diameter 0) (color 0 0 0 0)
+    (uuid 7f37e13c-2914-4c56-96ba-49cd83a5f0b0)
+  )
   (junction (at 50.8 139.065) (diameter 0) (color 0 0 0 0)
     (uuid 80bf5806-f5bb-4c3b-800e-9ef1470786a6)
   )
@@ -2156,6 +2157,9 @@
   (junction (at 228.6 147.32) (diameter 0) (color 0 0 0 0)
     (uuid be220aa0-b68d-48b7-a2b9-496d607d7983)
   )
+  (junction (at 201.295 249.555) (diameter 0) (color 0 0 0 0)
+    (uuid bf51f321-c342-4830-bdb7-5caa995e79cf)
+  )
   (junction (at 201.295 241.3) (diameter 0) (color 0 0 0 0)
     (uuid c2c412f3-fde1-4771-a4ad-ff7ca3259b08)
   )
@@ -2180,6 +2184,9 @@
   (junction (at 377.19 125.73) (diameter 0) (color 0 0 0 0)
     (uuid d1b12c7f-31f6-43af-93db-f240ce6bddb8)
   )
+  (junction (at 93.98 59.055) (diameter 0) (color 0 0 0 0)
+    (uuid d5575a36-00e8-4c61-9bac-06956cb7ab16)
+  )
   (junction (at 55.88 247.015) (diameter 0) (color 0 0 0 0)
     (uuid d62312ac-a069-46d6-b892-11a38bb952e7)
   )
@@ -2188,9 +2195,6 @@
   )
   (junction (at 80.01 97.155) (diameter 0) (color 0 0 0 0)
     (uuid e5516939-db19-4595-ac49-659300ee2879)
-  )
-  (junction (at 93.98 59.055) (diameter 0) (color 0 0 0 0)
-    (uuid e61b63ff-08c7-4759-9f7f-470cf46b34a4)
   )
   (junction (at 59.69 230.505) (diameter 0) (color 0 0 0 0)
     (uuid e8576516-5ed7-4ced-b30a-493f30322d4e)
@@ -2209,21 +2213,21 @@
   )
 
   (no_connect (at 318.135 69.85) (uuid 0c087ef4-b447-4427-9f91-8578c25adac5))
-  (no_connect (at 331.47 156.845) (uuid 294921cb-fc0b-427d-81f1-f84753083e53))
+  (no_connect (at 422.91 174.625) (uuid 316281f7-fd78-4d89-a62e-90e4aff4be95))
+  (no_connect (at 422.91 177.165) (uuid 34c83869-43ed-443e-9c42-f8d8146dbeb7))
   (no_connect (at 157.48 174.625) (uuid 38e176d7-52aa-4255-bd28-9847d4064633))
   (no_connect (at 422.91 207.645) (uuid 4218623a-59b2-4d48-9a03-825c9c7dcd96))
-  (no_connect (at 331.47 151.765) (uuid 4cddc1b9-a5ba-49d7-a34b-7a18d15699ea))
   (no_connect (at 331.47 149.225) (uuid 51d369aa-1baa-4787-bb24-9f522cf5165e))
-  (no_connect (at 331.47 164.465) (uuid 5e6dd5b8-da79-412d-beed-1def567774e9))
+  (no_connect (at 422.91 179.705) (uuid 78a328c9-2ac5-45ed-b479-75b29b486aaf))
   (no_connect (at 422.91 144.145) (uuid 7db6286a-fd62-4525-a944-30432870b0dc))
   (no_connect (at 422.91 141.605) (uuid 993a2981-d7d8-4623-8f5c-cf14f6683704))
+  (no_connect (at 422.91 182.245) (uuid a6033071-18d8-49d8-a845-461e147fc986))
   (no_connect (at 422.91 164.465) (uuid a9d0431d-3543-4608-93f3-f2ca428bcb9a))
-  (no_connect (at 331.47 159.385) (uuid abf7869a-e5dd-41c2-9a46-c290ef1ef6f3))
+  (no_connect (at 422.91 184.785) (uuid b159119c-8e72-4d07-8e16-4feb914626b8))
   (no_connect (at 83.82 125.095) (uuid b53535e5-7d8a-44e1-8ce8-09007dea5921))
   (no_connect (at 422.91 205.105) (uuid b8a32d3e-d25a-4bb4-bf57-278f299170ba))
   (no_connect (at 401.955 231.775) (uuid cb7e7e2f-79e1-4fa0-801b-dc7e821e3e0b))
   (no_connect (at 83.82 122.555) (uuid f1546d99-7d6e-4871-ad73-4d8683c901d3))
-  (no_connect (at 331.47 161.925) (uuid fa266101-511b-4d45-b58e-41f5e93453f0))
   (no_connect (at 109.22 89.535) (uuid fc02100d-1da7-45ca-89c9-71f5df02523d))
 
   (wire (pts (xy 214.63 164.465) (xy 238.76 164.465))
@@ -2308,10 +2312,6 @@
     (stroke (width 0) (type default))
     (uuid 0c96c518-d0ec-448f-945d-b377cf9aa8fa)
   )
-  (wire (pts (xy 201.295 254.635) (xy 201.295 260.35))
-    (stroke (width 0) (type default))
-    (uuid 0d4e270a-2962-4d58-abe5-8faa2711d204)
-  )
   (wire (pts (xy 111.76 125.095) (xy 118.11 125.095))
     (stroke (width 0) (type default))
     (uuid 0d527ddc-6c7c-48b1-905f-b5b4da80f576)
@@ -2372,9 +2372,17 @@
     (stroke (width 0) (type default))
     (uuid 157e0002-027e-4ffb-b61b-ec6a6d32707e)
   )
+  (wire (pts (xy 324.485 159.385) (xy 331.47 159.385))
+    (stroke (width 0) (type default))
+    (uuid 15887652-edaf-4ba0-a243-d2c43346eb0b)
+  )
   (wire (pts (xy 192.405 107.95) (xy 207.645 107.95))
     (stroke (width 0) (type default))
     (uuid 15e0882d-91c3-44e4-98b8-4e81d2fcadcd)
+  )
+  (wire (pts (xy 189.865 249.555) (xy 189.865 250.825))
+    (stroke (width 0) (type default))
+    (uuid 1631a3f8-1e8b-40bc-9bcc-f65ff03de4d7)
   )
   (wire (pts (xy 151.765 233.045) (xy 151.765 237.49))
     (stroke (width 0) (type default))
@@ -2387,6 +2395,10 @@
   (wire (pts (xy 363.855 59.69) (xy 368.3 59.69))
     (stroke (width 0) (type default))
     (uuid 17055285-6309-4b9d-8222-7e1449356954)
+  )
+  (wire (pts (xy 201.295 258.445) (xy 201.295 260.35))
+    (stroke (width 0) (type default))
+    (uuid 173d927d-44b4-41a3-b53d-5c9053e5a855)
   )
   (wire (pts (xy 50.8 128.905) (xy 43.18 128.905))
     (stroke (width 0) (type default))
@@ -2412,6 +2424,10 @@
     (stroke (width 0) (type default))
     (uuid 1bf095be-e199-4fed-bf78-547e61cd4766)
   )
+  (wire (pts (xy 322.58 161.925) (xy 331.47 161.925))
+    (stroke (width 0) (type default))
+    (uuid 1c11bf9e-887b-4ae9-be44-bc842819557d)
+  )
   (wire (pts (xy 43.18 149.225) (xy 43.18 128.905))
     (stroke (width 0) (type default))
     (uuid 1c6e2bba-d34c-4f26-9be1-5746feedef60)
@@ -2423,6 +2439,10 @@
   (wire (pts (xy 55.88 247.015) (xy 55.88 249.555))
     (stroke (width 0) (type default))
     (uuid 1e82eae4-7400-4aff-af90-860c9712c51b)
+  )
+  (wire (pts (xy 93.98 57.15) (xy 93.98 59.055))
+    (stroke (width 0) (type default))
+    (uuid 1eea86c5-35cb-4159-a94b-8f46b546b52f)
   )
   (wire (pts (xy 151.765 237.49) (xy 157.48 237.49))
     (stroke (width 0) (type default))
@@ -2534,6 +2554,10 @@
     (stroke (width 0) (type default))
     (uuid 2fa22631-9405-4ff0-ae05-1caf1fbbfb19)
   )
+  (wire (pts (xy 201.295 249.555) (xy 201.295 250.825))
+    (stroke (width 0) (type default))
+    (uuid 2fdf37d5-4e44-4399-85b2-9d337f2bb1e1)
+  )
   (wire (pts (xy 50.8 191.135) (xy 50.8 192.405))
     (stroke (width 0) (type default))
     (uuid 301dd581-cdec-4a51-aa5c-a68ac4e10225)
@@ -2608,6 +2632,10 @@
     (stroke (width 0) (type default))
     (uuid 41849309-b2f8-4fcb-8040-71a98a4f5dc1)
   )
+  (wire (pts (xy 322.58 164.465) (xy 331.47 164.465))
+    (stroke (width 0) (type default))
+    (uuid 418d3749-79cd-46e8-a28c-0a7e37a6ecc1)
+  )
   (wire (pts (xy 192.405 95.25) (xy 192.405 83.82))
     (stroke (width 0) (type default))
     (uuid 41906b4d-19b1-4a75-9a21-1c899120fd3b)
@@ -2619,6 +2647,10 @@
   (wire (pts (xy 168.91 147.32) (xy 168.91 152.4))
     (stroke (width 0) (type default))
     (uuid 43d09ff0-1cf9-46c0-bca7-dcde99b2136f)
+  )
+  (wire (pts (xy 323.215 151.765) (xy 331.47 151.765))
+    (stroke (width 0) (type default))
+    (uuid 4492a4cf-6998-446e-a8ec-bfb695527658)
   )
   (polyline (pts (xy 379.73 95.25) (xy 379.73 41.275))
     (stroke (width 0) (type dash))
@@ -2677,10 +2709,6 @@
     (stroke (width 0) (type default))
     (uuid 52041c1a-cf9f-419a-ba67-a775e945cb7e)
   )
-  (wire (pts (xy 422.91 174.625) (xy 428.625 174.625))
-    (stroke (width 0) (type default))
-    (uuid 520ed530-a4c4-46bb-a3f3-597c3b2f057c)
-  )
   (wire (pts (xy 340.995 73.025) (xy 340.995 74.93))
     (stroke (width 0) (type default))
     (uuid 52970e2b-805a-4d54-86d4-ad3a05e9224f)
@@ -2729,14 +2757,6 @@
   (wire (pts (xy 161.925 241.3) (xy 157.48 241.3))
     (stroke (width 0) (type default))
     (uuid 59c2559f-f1cb-4e5e-a036-fb4529dc8f53)
-  )
-  (wire (pts (xy 422.91 179.705) (xy 428.625 179.705))
-    (stroke (width 0) (type default))
-    (uuid 5a0ca20a-5ff2-49c1-aa5a-c3964caab393)
-  )
-  (wire (pts (xy 422.91 177.165) (xy 428.625 177.165))
-    (stroke (width 0) (type default))
-    (uuid 5a3e3b54-de6a-4f0c-9739-6b393a0f49d3)
   )
   (wire (pts (xy 200.025 241.3) (xy 201.295 241.3))
     (stroke (width 0) (type default))
@@ -2972,6 +2992,10 @@
     (stroke (width 0) (type default))
     (uuid 8c562f7b-4b11-44e6-9aac-12de6202b53c)
   )
+  (wire (pts (xy 179.705 245.11) (xy 189.865 245.11))
+    (stroke (width 0) (type default))
+    (uuid 8c809e54-88dc-4029-8b6f-108b1aeda41d)
+  )
   (polyline (pts (xy 227.33 270.51) (xy 286.385 270.51))
     (stroke (width 0) (type dash))
     (uuid 8cb50237-bb40-4411-a81d-ac4e3e5159f8)
@@ -2994,10 +3018,6 @@
     (stroke (width 0) (type default))
     (uuid 8e5c3df0-3ae4-4174-bdb6-5b71837f478a)
   )
-  (wire (pts (xy 185.42 250.19) (xy 189.865 250.19))
-    (stroke (width 0) (type default))
-    (uuid 8fc42da2-fb06-42e1-ae8b-5101da746134)
-  )
   (wire (pts (xy 31.75 245.745) (xy 31.75 247.015))
     (stroke (width 0) (type default))
     (uuid 8ff0a989-4c1f-47d1-8423-2e949511923a)
@@ -3005,6 +3025,10 @@
   (wire (pts (xy 29.21 40.005) (xy 34.29 40.005))
     (stroke (width 0) (type default))
     (uuid 90cbd979-c41c-436e-a19a-1e30a757bdb4)
+  )
+  (wire (pts (xy 193.04 249.555) (xy 189.865 249.555))
+    (stroke (width 0) (type default))
+    (uuid 9320a1fd-1683-462b-ac4b-5afc553fc226)
   )
   (wire (pts (xy 307.34 141.605) (xy 307.34 142.24))
     (stroke (width 0) (type default))
@@ -3058,10 +3082,6 @@
     (stroke (width 0) (type default))
     (uuid 9996f6ca-fbe7-4cb9-831e-32e6e6fc68a8)
   )
-  (wire (pts (xy 422.91 184.785) (xy 426.72 184.785))
-    (stroke (width 0) (type default))
-    (uuid 9a48afd5-70cd-4556-bc41-09b8748cb98c)
-  )
   (wire (pts (xy 179.07 147.32) (xy 181.61 147.32))
     (stroke (width 0) (type default))
     (uuid 9a4b3c57-9ac3-4cec-b0c6-5c355babd09a)
@@ -3105,6 +3125,10 @@
   (wire (pts (xy 189.865 241.3) (xy 189.865 237.49))
     (stroke (width 0) (type default))
     (uuid a209b169-f5c4-4156-912e-6389d0937148)
+  )
+  (wire (pts (xy 189.865 245.11) (xy 189.865 249.555))
+    (stroke (width 0) (type default))
+    (uuid a22e440e-af25-49fa-9505-abbdc3852d75)
   )
   (wire (pts (xy 34.29 88.265) (xy 29.21 88.265))
     (stroke (width 0) (type default))
@@ -3154,10 +3178,6 @@
   (wire (pts (xy 318.135 67.31) (xy 321.31 67.31))
     (stroke (width 0) (type default))
     (uuid a7a1fb16-e4a0-4588-b1fe-af965ae8f81f)
-  )
-  (wire (pts (xy 189.865 250.19) (xy 189.865 250.825))
-    (stroke (width 0) (type default))
-    (uuid a8832968-2c39-43b2-a6af-4c63a4dcd7c9)
   )
   (wire (pts (xy 43.18 85.725) (xy 29.21 85.725))
     (stroke (width 0) (type default))
@@ -3262,13 +3282,13 @@
     (stroke (width 0) (type default))
     (uuid b933a08f-979d-4d9a-bf6a-351ce7f13980)
   )
+  (wire (pts (xy 200.66 249.555) (xy 201.295 249.555))
+    (stroke (width 0) (type default))
+    (uuid bab439f3-a44d-409a-8278-b9c37185107b)
+  )
   (wire (pts (xy 43.18 106.045) (xy 43.18 85.725))
     (stroke (width 0) (type default))
     (uuid bc244cda-ebdc-421d-87e9-0b377df82781)
-  )
-  (wire (pts (xy 179.705 245.11) (xy 185.42 245.11))
-    (stroke (width 0) (type default))
-    (uuid bccd58ce-9176-4bb8-946d-ecb817fca57d)
   )
   (wire (pts (xy 29.21 146.685) (xy 34.29 146.685))
     (stroke (width 0) (type default))
@@ -3327,29 +3347,25 @@
     (stroke (width 0) (type default))
     (uuid c7860c2f-dc8c-4c76-a0da-9d75034493e0)
   )
+  (wire (pts (xy 324.485 156.845) (xy 331.47 156.845))
+    (stroke (width 0) (type default))
+    (uuid c7e9d1b3-a1ad-43d6-8d33-73c2f5de02f8)
+  )
+  (wire (pts (xy 201.295 241.3) (xy 201.295 249.555))
+    (stroke (width 0) (type default))
+    (uuid c985d788-d282-4b6a-8c9c-cb18258960a9)
+  )
   (wire (pts (xy 80.01 97.155) (xy 83.82 97.155))
     (stroke (width 0) (type default))
     (uuid c990a63d-d63c-4a79-b1d9-54a3790602b3)
-  )
-  (wire (pts (xy 189.865 248.92) (xy 189.865 250.19))
-    (stroke (width 0) (type default))
-    (uuid ca31195e-ba81-4d1e-b5c6-a749fbdf0abe)
   )
   (wire (pts (xy 29.21 60.325) (xy 34.29 60.325))
     (stroke (width 0) (type default))
     (uuid ca369caf-817b-4a2c-b449-8788597e7b73)
   )
-  (wire (pts (xy 201.295 241.3) (xy 201.295 247.015))
-    (stroke (width 0) (type default))
-    (uuid ca38f014-2257-4cff-a001-7374725a8017)
-  )
   (wire (pts (xy 54.61 257.175) (xy 46.99 257.175))
     (stroke (width 0) (type default))
     (uuid ca869b15-dd88-4d84-9128-d8a8dda69bc1)
-  )
-  (wire (pts (xy 185.42 245.11) (xy 185.42 250.19))
-    (stroke (width 0) (type default))
-    (uuid cbb1337a-573f-4fce-bfb4-2383a20ab97c)
   )
   (wire (pts (xy 243.84 147.32) (xy 243.84 152.4))
     (stroke (width 0) (type default))
@@ -3605,10 +3621,6 @@
     (stroke (width 0) (type default))
     (uuid fdf03375-5fab-4762-99e2-4d2e0c4db948)
   )
-  (wire (pts (xy 422.91 182.245) (xy 426.72 182.245))
-    (stroke (width 0) (type default))
-    (uuid fe3f8efb-be50-498b-b9f7-9b217ceab53e)
-  )
   (wire (pts (xy 50.8 97.155) (xy 67.31 97.155))
     (stroke (width 0) (type default))
     (uuid fe7d1c1f-17db-4a05-9280-604bafb3f70c)
@@ -3642,7 +3654,7 @@
     (effects (font (size 4.572 4.572) (thickness 0.9144) bold) (justify left bottom))
     (uuid d3941a49-d1d7-45e2-9de5-c5bc75c23823)
   )
-  (text "3.3v Buck Converter" (at 144.78 218.44 0)
+  (text "5v Buck Converter" (at 144.78 218.44 0)
     (effects (font (size 4.572 4.572) (thickness 0.9144) bold) (justify left bottom))
     (uuid f0d420b0-39b8-4dac-bd3d-71c56ae33179)
   )
@@ -3669,11 +3681,11 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "ENCB_B" (shape input) (at 428.625 179.705 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "ENCB_B" (shape input) (at 322.58 161.925 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid 0b0cd56f-3a18-4e76-bfec-f2b3cb10b948)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 438.8673 179.705 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 312.3377 161.925 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "IO19" (shape input) (at 426.085 151.765 0) (fields_autoplaced)
@@ -3711,11 +3723,11 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "ENCB_L" (shape input) (at 428.625 174.625 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "ENCB_L" (shape input) (at 323.215 151.765 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid 3ac300c3-608e-4308-9959-fbfed246c893)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 438.6254 174.625 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 313.2146 151.765 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "ENCA_L" (shape input) (at 431.165 167.005 0) (fields_autoplaced)
@@ -3844,11 +3856,11 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "ADC_CS" (shape input) (at 426.72 182.245 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "ADC_CS" (shape input) (at 324.485 159.385 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid a9e1980f-d75d-44fc-b705-0a3137e42861)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 436.7809 182.245 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 314.4241 159.385 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "ENCA_B" (shape input) (at 431.165 172.085 0) (fields_autoplaced)
@@ -3907,11 +3919,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "ENCB_R" (shape input) (at 428.625 177.165 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "ENCB_R" (shape input) (at 322.58 164.465 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid df068c6a-f15d-47e4-80b2-302bac444957)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 438.8673 177.165 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 312.3377 164.465 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "D_RST" (shape input) (at 273.05 241.935 0) (fields_autoplaced)
@@ -3921,11 +3933,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "ADC_MOSI" (shape input) (at 426.72 184.785 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
+  (global_label "ADC_MOSI" (shape input) (at 324.485 156.845 180) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
     (uuid e913677e-0996-4b13-81d7-12980a4a2c71)
-    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 438.8976 184.785 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at 312.3074 156.845 0)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "D_DCRC" (shape input) (at 425.45 161.925 0) (fields_autoplaced)
@@ -3995,7 +4007,7 @@
     )
     (pin "1" (uuid 28af0794-a75f-439a-9e14-f9e29cabc937))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0137") (unit 1)
         )
@@ -4020,7 +4032,7 @@
     )
     (pin "1" (uuid a0dc7cac-2eba-4d5c-882c-74906f684d94))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0155") (unit 1)
         )
@@ -4045,7 +4057,7 @@
     )
     (pin "1" (uuid a367ba1b-604e-4d4f-aba4-93c7a98593f2))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0114") (unit 1)
         )
@@ -4070,7 +4082,7 @@
     )
     (pin "1" (uuid a0b58de6-6754-4e74-a52b-1bad1079381f))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0111") (unit 1)
         )
@@ -4096,7 +4108,7 @@
     (pin "1" (uuid 3e2ed2d0-ab54-473a-b6d0-6b00e9cb5232))
     (pin "2" (uuid 5a6d1142-63c6-4c28-9ec1-0eb9c0f1d105))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R109") (unit 1)
         )
@@ -4121,7 +4133,7 @@
     )
     (pin "1" (uuid 4aa8c17f-1b29-43a0-984b-6af458f0e1a2))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0118") (unit 1)
         )
@@ -4147,7 +4159,7 @@
     (pin "1" (uuid 705ffeab-cfd9-4ba5-b08c-9dabf959d52d))
     (pin "2" (uuid f877f741-2104-419b-8a70-8f6dd917c7b4))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C111") (unit 1)
         )
@@ -4172,7 +4184,7 @@
     )
     (pin "1" (uuid 4fac8c60-b0b7-440d-954b-481b46478ff8))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#FLG0102") (unit 1)
         )
@@ -4198,7 +4210,7 @@
     (pin "1" (uuid 6c7adab2-c30e-4778-983b-afb081de31ac))
     (pin "2" (uuid fb629a21-1be5-4b10-8f6b-e799c5b929a9))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R108") (unit 1)
         )
@@ -4224,7 +4236,7 @@
     (pin "1" (uuid de721e82-c21f-42f3-a681-ad1bad56832a))
     (pin "2" (uuid 8c900f12-6396-47af-8fce-f3a87a713e93))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "L101") (unit 1)
         )
@@ -4249,7 +4261,7 @@
     )
     (pin "1" (uuid c2e48f41-0549-4de0-a7e0-d3de572be633))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#FLG0101") (unit 1)
         )
@@ -4277,7 +4289,7 @@
     (pin "3" (uuid 5268808c-1d9a-47c1-9a6b-c5ede818f668))
     (pin "4" (uuid e694794d-7db9-451d-9416-0cd6f6dae4bb))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "D103") (unit 1)
         )
@@ -4302,7 +4314,7 @@
     )
     (pin "1" (uuid 205eebc3-ff8b-4e19-9b3d-7607b06388bd))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0115") (unit 1)
         )
@@ -4335,7 +4347,7 @@
     (pin "8" (uuid 60beb99e-e234-47bd-8eed-609b68f5d35e))
     (pin "9" (uuid bca4c7ad-65c4-47f1-95fc-25343bee4342))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "U104") (unit 1)
         )
@@ -4361,7 +4373,7 @@
     (pin "1" (uuid 9de5064a-fed8-40d5-aee2-ec9865ec2a7d))
     (pin "2" (uuid 394e0abb-7ee5-4380-9f74-25556888607a))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C110") (unit 1)
         )
@@ -4387,7 +4399,7 @@
     (pin "1" (uuid e39835a9-6159-4f55-b58f-9a12ce83458a))
     (pin "2" (uuid 1321534c-b5ba-4a14-a92b-5fc0f0b57676))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C107") (unit 1)
         )
@@ -4414,7 +4426,7 @@
     (pin "T" (uuid b1a5c578-29d2-4225-8a5e-f72d046e7d19))
     (pin "TN" (uuid 26a9f645-cbbf-4cf9-8142-9ff1274502a7))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J102") (unit 1)
         )
@@ -4442,7 +4454,7 @@
     (pin "3" (uuid 0b53c8c7-3453-4e80-9c70-35f5a80924c7))
     (pin "4" (uuid f3a9660b-a217-4960-85af-725c2e030237))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "D101") (unit 1)
         )
@@ -4469,7 +4481,7 @@
     (pin "T" (uuid cabb4e40-517c-4b1e-81e1-a8cddc433a92))
     (pin "TN" (uuid cbb8514b-97cf-4a65-bde6-8c2e4507c9e7))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J101") (unit 1)
         )
@@ -4495,7 +4507,7 @@
     (pin "1" (uuid bbe1d4a8-53cd-4278-b053-674522db8706))
     (pin "2" (uuid b904cf64-96d7-4b58-985d-c406d8133499))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "SW107") (unit 1)
         )
@@ -4503,25 +4515,25 @@
     )
   )
 
-  (symbol (lib_id "Device:R_US") (at 189.865 245.11 0) (unit 1)
+  (symbol (lib_id "Device:R_US") (at 196.85 249.555 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 264771c5-62ee-4c3d-aef0-a6cb5ca4f560)
-    (property "Reference" "R119" (at 191.77 243.84 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Reference" "R119" (at 196.85 243.84 90)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "51k" (at 191.77 246.38 0)
-      (effects (font (size 1.27 1.27)) (justify left))
+    (property "Value" "89k" (at 196.85 246.38 90)
+      (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 190.881 245.364 90)
+    (property "Footprint" "PCM_Resistor_THT_AKL:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" (at 197.104 248.539 90)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 189.865 245.11 0)
+    (property "Datasheet" "~" (at 196.85 249.555 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c7246b76-eaba-466c-950c-bd7b139d3de0))
     (pin "2" (uuid 4031c05f-a822-4979-9e0d-5ba63d9bbddf))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R119") (unit 1)
         )
@@ -4546,7 +4558,7 @@
     )
     (pin "1" (uuid ca9cf1f4-2677-4a0e-8aef-4b7ba65c6bf5))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0143") (unit 1)
         )
@@ -4572,7 +4584,7 @@
     (pin "1" (uuid 6cd31d57-8218-417b-8ebc-c74a19d4114f))
     (pin "2" (uuid 9a4d8881-ba79-4d22-aead-938dd2eb87fd))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R102") (unit 1)
         )
@@ -4601,7 +4613,7 @@
     (pin "S1" (uuid f5a5f6d4-012b-4806-aef1-14abc274b14b))
     (pin "S2" (uuid 7ea628f6-17ca-4de9-b64b-ea6ad04aad76))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "SW106") (unit 1)
         )
@@ -4626,7 +4638,7 @@
     )
     (pin "1" (uuid 767ef1dc-a3e0-44b7-aa55-a1dd84a0ce2a))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0146") (unit 1)
         )
@@ -4651,7 +4663,7 @@
     )
     (pin "1" (uuid 87aa3527-c1aa-41f2-8069-231a329b06e5))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0105") (unit 1)
         )
@@ -4677,7 +4689,7 @@
     (pin "1" (uuid fe709229-f7b8-41f7-aef8-a0a5bf73f5de))
     (pin "2" (uuid 0232b21b-1eb9-48b5-aa96-4bd5cfbdc242))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C118") (unit 1)
         )
@@ -4704,7 +4716,7 @@
     (pin "T" (uuid 058003f4-8cbc-4618-887f-00c3fe1a9a91))
     (pin "TN" (uuid 31e2e8ab-c137-4c7b-a9f4-13d1d89a2380))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J108") (unit 1)
         )
@@ -4729,7 +4741,7 @@
     )
     (pin "1" (uuid 0bc47d1c-210f-456a-894e-570f818fafe5))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0139") (unit 1)
         )
@@ -4759,7 +4771,7 @@
     (pin "5" (uuid 77846c55-a155-4f84-b7b3-07c9debc4832))
     (pin "6" (uuid da5bf21d-0571-4c51-a6ae-76bbcdd7fc65))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J110") (unit 1)
         )
@@ -4785,7 +4797,7 @@
     (pin "1" (uuid 7ec7a987-e8b8-4891-9f88-7c663dd4280c))
     (pin "2" (uuid 5de424cc-a0f5-4ad0-bf9f-260334e8b108))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R110") (unit 1)
         )
@@ -4811,7 +4823,7 @@
     (pin "1" (uuid 871fd26d-f6cd-4a58-a300-66525781805c))
     (pin "2" (uuid ef3e6bc2-45d9-4521-9779-2b7c23c7c132))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "SW102") (unit 1)
         )
@@ -4837,7 +4849,7 @@
     (pin "1" (uuid 7954ded0-542f-4b5c-b312-3a3181aba6b8))
     (pin "2" (uuid 37efca38-7c34-43e5-8182-2cd437811dff))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C115") (unit 1)
         )
@@ -4862,7 +4874,7 @@
     )
     (pin "1" (uuid 1d13baa6-30dc-4b62-bac9-ddc1e26f543d))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0145") (unit 1)
         )
@@ -4887,7 +4899,7 @@
     )
     (pin "1" (uuid 9fac2d0f-cec7-4fb2-8ffd-471d46d9b8fd))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0127") (unit 1)
         )
@@ -4912,7 +4924,7 @@
     )
     (pin "1" (uuid de027297-762f-4ee9-8e9e-e2d486095fd2))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0166") (unit 1)
         )
@@ -4938,7 +4950,7 @@
     (pin "1" (uuid de6a8fa3-71eb-41ba-8b4f-5a39f052ed5d))
     (pin "2" (uuid d6dbc66f-e822-4c6e-a030-5c651611eba4))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C106") (unit 1)
         )
@@ -4963,7 +4975,7 @@
     )
     (pin "1" (uuid 5624f847-f093-432a-bd55-e94cd453ea2d))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0164") (unit 1)
         )
@@ -4990,9 +5002,34 @@
     (pin "T" (uuid 9014587f-effa-4303-bd9e-96ea7f663981))
     (pin "TN" (uuid f5926df6-bdb6-42f2-a0e8-c2495d546d01))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J103") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 93.98 57.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4cd27ccf-8c79-4e99-8c52-e168f908a6b0)
+    (property "Reference" "#PWR0119" (at 93.98 60.96 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 93.98 52.07 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 93.98 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 93.98 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f9acf5bd-508b-4319-8e1d-bda6a79d71c5))
+    (instances
+      (project "Quadriscope"
+        (path "/b6082534-8496-42f5-914d-c32eba9832ab"
+          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -5015,7 +5052,7 @@
     )
     (pin "1" (uuid 34547994-2f15-460a-afeb-2569d34c3a4d))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0131") (unit 1)
         )
@@ -5040,7 +5077,7 @@
     )
     (pin "1" (uuid b25639a2-b2a6-478f-878f-a2989bcb23c5))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0102") (unit 1)
         )
@@ -5065,9 +5102,34 @@
     )
     (pin "1" (uuid 842ce662-0f24-45c7-b186-928298b91dcb))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0152") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 201.295 236.22 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5348c524-a6f7-441d-84f7-717030a6efec)
+    (property "Reference" "#PWR0129" (at 201.295 240.03 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 201.295 231.14 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 201.295 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 201.295 236.22 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 24df7c7e-c294-42ab-a967-c0f16202e8ad))
+    (instances
+      (project "Quadriscope"
+        (path "/b6082534-8496-42f5-914d-c32eba9832ab"
+          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -5091,7 +5153,7 @@
     (pin "1" (uuid 932eefc4-8874-40a2-9ab2-ccc7b41f0112))
     (pin "2" (uuid b7f43ea2-4679-4bb7-9e50-12a9ef3423d3))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C119") (unit 1)
         )
@@ -5117,7 +5179,7 @@
     (pin "1" (uuid 455b894b-b188-4b35-a5b8-251cb3765e9e))
     (pin "2" (uuid 6a1fc9d8-b737-4438-841f-bb34169d1c30))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R113") (unit 1)
         )
@@ -5143,7 +5205,7 @@
     (pin "1" (uuid 49772390-db1b-49b9-9e36-5577bb45c3b4))
     (pin "2" (uuid 5637a7ed-4b84-4f10-a02a-8561cdcf431a))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C116") (unit 1)
         )
@@ -5168,34 +5230,9 @@
     )
     (pin "1" (uuid f52fca03-8099-4801-817a-e972face8193))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0165") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 120.65 94.615 270) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 5ba8cfa2-9f4f-4f14-a9c2-3c65a66cca72)
-    (property "Reference" "#PWR0126" (at 116.84 94.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 124.46 94.615 90)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "" (at 120.65 94.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 120.65 94.615 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d237e588-0162-407f-8843-9ef53862bb5a))
-    (instances
-      (project "EurorackScope"
-        (path "/b6082534-8496-42f5-914d-c32eba9832ab"
-          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -5218,7 +5255,7 @@
     )
     (pin "1" (uuid 1257ca61-f96f-45e4-9466-1da8a3489571))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0136") (unit 1)
         )
@@ -5243,7 +5280,7 @@
     )
     (pin "1" (uuid 52d826d9-d61f-4c79-8766-d62e96d72863))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0113") (unit 1)
         )
@@ -5268,7 +5305,7 @@
     )
     (pin "1" (uuid 7ae44dd9-8453-4dc3-abe6-98fdf41f0f4c))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0103") (unit 1)
         )
@@ -5293,7 +5330,7 @@
     )
     (pin "1" (uuid 54622374-af32-4cb2-9534-5b1b697029f7))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0158") (unit 1)
         )
@@ -5318,7 +5355,7 @@
     )
     (pin "1" (uuid 1cae0fd6-e60e-4015-b769-4286ed713ab3))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0122") (unit 1)
         )
@@ -5343,7 +5380,7 @@
     )
     (pin "1" (uuid d1b586a9-0cb3-4df8-8bb3-c19a7ac29dff))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0160") (unit 1)
         )
@@ -5373,7 +5410,7 @@
     (pin "5" (uuid 82cb6611-14f7-4e96-89ea-fafd0e7d691b))
     (pin "6" (uuid 7458e566-577a-4f2e-aec8-259f0b282834))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "U103") (unit 1)
         )
@@ -5398,7 +5435,7 @@
     )
     (pin "1" (uuid 610709b7-d204-4e76-87eb-b52cacdb342f))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0153") (unit 1)
         )
@@ -5424,7 +5461,7 @@
     (pin "1" (uuid 3997b8b8-447c-419d-93df-085ea4cae5fc))
     (pin "2" (uuid ea5c4d7a-ac27-4568-bf1d-547e8b250f39))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "SW101") (unit 1)
         )
@@ -5450,7 +5487,7 @@
     (pin "1" (uuid 29942f37-4023-4692-a060-81ad91d1b414))
     (pin "2" (uuid 401452d7-5769-4f4e-b75a-cbec1023e490))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C113") (unit 1)
         )
@@ -5476,7 +5513,7 @@
     (pin "1" (uuid bc16b666-9598-4536-9823-e559aa8c63ce))
     (pin "2" (uuid e93d7f0e-54b5-4dac-bae0-c65ce4783976))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R103") (unit 1)
         )
@@ -5504,7 +5541,7 @@
     (pin "3" (uuid b7161e36-2e35-4939-b184-a46d5f964d13))
     (pin "4" (uuid f39c2dee-6c79-4490-8c0f-9d6042326903))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "D102") (unit 1)
         )
@@ -5529,7 +5566,7 @@
     )
     (pin "1" (uuid 1d8b9fc1-0e1d-41b4-9bbe-ab123b9de8dd))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0147") (unit 1)
         )
@@ -5555,7 +5592,7 @@
     (pin "1" (uuid d4bebcb3-6874-4b12-957d-d910d3c36505))
     (pin "2" (uuid 8b393a8b-90d4-4813-ae00-cb3f2aab6a8f))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R114") (unit 1)
         )
@@ -5581,7 +5618,7 @@
     (pin "1" (uuid d5476fcc-cb92-4657-84cd-03e3d9b66a58))
     (pin "2" (uuid 515adaae-60cd-473b-8c25-0c1a13a10867))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R105") (unit 1)
         )
@@ -5606,7 +5643,7 @@
     )
     (pin "1" (uuid fc1d8a4e-fe14-4649-86fc-b3dcb017b3d8))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0107") (unit 1)
         )
@@ -5632,7 +5669,7 @@
     (pin "1" (uuid 4f5e9636-1166-4d21-a28b-23b116d257cf))
     (pin "2" (uuid af3c321e-ec4b-4544-a1fc-c0f1b4b3afff))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R104") (unit 1)
         )
@@ -5657,7 +5694,7 @@
     )
     (pin "1" (uuid 25860a8e-b81e-471f-a6f3-4b24498665f1))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0109") (unit 1)
         )
@@ -5682,7 +5719,7 @@
     )
     (pin "1" (uuid c57e5e12-dc14-48ed-897b-8417c8d1e85b))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0156") (unit 1)
         )
@@ -5708,7 +5745,7 @@
     (pin "1" (uuid cd3ce546-b293-4555-ba29-c0b9a75f8d09))
     (pin "2" (uuid 625f8b00-bc46-4517-85b2-d75e3310f748))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C114") (unit 1)
         )
@@ -5735,34 +5772,9 @@
     (pin "T" (uuid e57bd762-9305-464e-9d39-ab0982f8665c))
     (pin "TN" (uuid f1a895a8-6025-4cff-be32-feada9717183))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J106") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 201.295 236.22 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9420092f-deb7-4050-b2d1-5c87eb76e236)
-    (property "Reference" "#PWR0129" (at 201.295 240.03 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 201.295 231.14 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 201.295 236.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 201.295 236.22 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 7904b275-2738-461b-90f2-aefe67617997))
-    (instances
-      (project "EurorackScope"
-        (path "/b6082534-8496-42f5-914d-c32eba9832ab"
-          (reference "#PWR0129") (unit 1)
         )
       )
     )
@@ -5785,7 +5797,7 @@
     )
     (pin "1" (uuid 3ed07f57-5627-4b27-826e-d611bad64ebb))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0149") (unit 1)
         )
@@ -5811,7 +5823,7 @@
     (pin "1" (uuid 688cf315-07bb-4a4d-b190-bc32f167cba0))
     (pin "2" (uuid 0dbb951c-d89a-41b1-8ee4-ea4dcd8e9106))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R116") (unit 1)
         )
@@ -5836,7 +5848,7 @@
     )
     (pin "1" (uuid 28f3e2c0-4068-4ead-a8c5-c37f0607b81e))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0167") (unit 1)
         )
@@ -5861,7 +5873,7 @@
     )
     (pin "1" (uuid 5ce6f6ec-7349-4356-9739-605b2d560825))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0104") (unit 1)
         )
@@ -5886,7 +5898,7 @@
     )
     (pin "1" (uuid 83743837-3eaa-42f4-8cbf-3a12b5f787d0))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0161") (unit 1)
         )
@@ -5912,7 +5924,7 @@
     (pin "1" (uuid 880d2b23-2e56-496a-9565-fe6d26871073))
     (pin "2" (uuid 18886b63-ece4-4181-8b23-590722faa314))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R111") (unit 1)
         )
@@ -5937,7 +5949,7 @@
     )
     (pin "1" (uuid 5990c827-c893-499c-9d83-fc4bba890d68))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0135") (unit 1)
         )
@@ -5962,7 +5974,7 @@
     )
     (pin "1" (uuid f6bacf7d-f36e-4b84-a22f-3be66291b942))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0159") (unit 1)
         )
@@ -5987,9 +5999,34 @@
     )
     (pin "1" (uuid 07cf1198-9f5c-45c2-8ac1-c77538a02a0c))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0142") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:+5V") (at 120.65 94.615 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a15d72bb-6a93-40c5-8f6b-6e8388296654)
+    (property "Reference" "#PWR0126" (at 116.84 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+5V" (at 123.825 94.615 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 120.65 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 120.65 94.615 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 6230d65a-d844-4c30-8d76-0d5cbf123b6d))
+    (instances
+      (project "Quadriscope"
+        (path "/b6082534-8496-42f5-914d-c32eba9832ab"
+          (reference "#PWR0126") (unit 1)
         )
       )
     )
@@ -6012,7 +6049,7 @@
     )
     (pin "1" (uuid 72255b65-c621-460e-bc96-e45618871a15))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0144") (unit 1)
         )
@@ -6037,7 +6074,7 @@
     )
     (pin "1" (uuid 9f89a526-979e-4ccf-a814-83aef7482b6f))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#FLG0103") (unit 1)
         )
@@ -6065,7 +6102,7 @@
     (pin "3" (uuid 9f4f32b9-b2ca-46dc-9e97-a6e91c5f550a))
     (pin "4" (uuid 800759dc-5306-4658-b514-c94f0f4f6d3f))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "D104") (unit 1)
         )
@@ -6130,7 +6167,7 @@
     (pin "8" (uuid e6d4e756-0761-4396-acc5-5fc0810b84e9))
     (pin "9" (uuid 4650eb35-89c6-43e2-b6aa-9f39279a8dba))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "U101") (unit 1)
         )
@@ -6155,7 +6192,7 @@
     )
     (pin "1" (uuid cedce170-e1e9-499d-9e90-b3cf6f2d5a28))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0140") (unit 1)
         )
@@ -6182,7 +6219,7 @@
     (pin "T" (uuid 18e2f230-125f-4af9-ad33-894772d7f33e))
     (pin "TN" (uuid 4380235c-e7cc-49c6-b77c-4ce0abd8faa5))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J107") (unit 1)
         )
@@ -6207,7 +6244,7 @@
     )
     (pin "1" (uuid 10a4d128-051e-4fc0-8e43-3a5ad2b52797))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0117") (unit 1)
         )
@@ -6233,7 +6270,7 @@
     (pin "1" (uuid ded058a0-b7d7-4021-8491-2b35ab305766))
     (pin "2" (uuid f2ad7f4d-9566-4e2a-92cf-00fa34686a90))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "SW103") (unit 1)
         )
@@ -6258,7 +6295,7 @@
     )
     (pin "1" (uuid 7473204d-cbb8-4da4-9a9c-bb6e6d02ebf4))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0130") (unit 1)
         )
@@ -6283,7 +6320,7 @@
     )
     (pin "1" (uuid afab49b1-8a5c-449d-bbd1-43b853353371))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0141") (unit 1)
         )
@@ -6308,7 +6345,7 @@
     )
     (pin "1" (uuid 02fd0ba8-02d7-4e8f-8cd8-fe0ff6a3b012))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0110") (unit 1)
         )
@@ -6333,7 +6370,7 @@
     )
     (pin "1" (uuid 9e9dcd0e-89f9-4e10-a61a-5a5ee8a7aaa7))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0128") (unit 1)
         )
@@ -6361,7 +6398,7 @@
     (pin "3" (uuid e43a0bb7-2ac3-402f-9152-5f1c6843fa09))
     (pin "4" (uuid bfbe2f9c-facf-4e37-9424-4085a1d7b3f9))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "D105") (unit 1)
         )
@@ -6386,7 +6423,7 @@
     )
     (pin "1" (uuid 049ee489-5088-442b-be72-f903ec8f1334))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0108") (unit 1)
         )
@@ -6412,7 +6449,7 @@
     (pin "1" (uuid 569f44b4-2d0b-4a0e-8988-f42fa3dbd9dc))
     (pin "2" (uuid 454c9d9c-bb5d-487e-90ab-eb90dc51eb02))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R107") (unit 1)
         )
@@ -6438,7 +6475,7 @@
     (pin "1" (uuid 0d7c1c12-198a-4cfc-b3b8-864a2f96d51e))
     (pin "2" (uuid 87f7faa6-d17e-4563-969c-c342c24c8b9a))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R106") (unit 1)
         )
@@ -6463,7 +6500,7 @@
     )
     (pin "1" (uuid 092f2457-a8e9-4a20-9739-13df986a3292))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0138") (unit 1)
         )
@@ -6489,7 +6526,7 @@
     (pin "1" (uuid 1c10acab-6457-47d5-80a1-9d1e5e3dd0f2))
     (pin "2" (uuid 96f8bcec-c871-4909-97cb-fa9a268b831d))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R117") (unit 1)
         )
@@ -6515,7 +6552,7 @@
     (pin "1" (uuid b210dd2e-433a-4637-95b5-8f17bf480b47))
     (pin "2" (uuid 84a31f03-fda4-4a0f-8544-166f5ce15337))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C108") (unit 1)
         )
@@ -6540,7 +6577,7 @@
     )
     (pin "1" (uuid e574e34d-28f0-41be-bef0-2d2c71385a83))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0133") (unit 1)
         )
@@ -6566,7 +6603,7 @@
     (pin "1" (uuid f7cbe08a-90ff-48f7-83c3-87faf3b91333))
     (pin "2" (uuid b17ecfe3-3c8a-4b9a-bec9-29c772aee493))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "SW104") (unit 1)
         )
@@ -6591,7 +6628,7 @@
     )
     (pin "1" (uuid b729891f-cd83-4cc0-9bf1-1e9b5a9ff2fa))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0162") (unit 1)
         )
@@ -6616,7 +6653,7 @@
     )
     (pin "1" (uuid 63b5b6e1-64bb-4710-8696-fa2c97daec36))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0124") (unit 1)
         )
@@ -6642,7 +6679,7 @@
     (pin "1" (uuid a27fc565-eb74-4366-ab36-c3b88182ca6e))
     (pin "2" (uuid bad72897-881b-4cc9-9c15-0562ec6a9da8))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C104") (unit 1)
         )
@@ -6667,7 +6704,7 @@
     )
     (pin "1" (uuid 3009a287-7a40-4b4d-aea7-858588c26162))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0116") (unit 1)
         )
@@ -6693,7 +6730,7 @@
     (pin "1" (uuid a4573e55-d8bd-40e5-8ea0-5abdeb8b670f))
     (pin "2" (uuid 2251a205-18f5-4b08-94d0-b91fd32bf054))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R118") (unit 1)
         )
@@ -6718,7 +6755,7 @@
     )
     (pin "1" (uuid f06922ff-be52-45fd-9fce-23be27d77a3c))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0106") (unit 1)
         )
@@ -6751,7 +6788,7 @@
     (pin "2" (uuid 75692f20-d97f-49fa-849b-ba4206d118ce))
     (pin "3" (uuid 58ba4701-d9d0-46b9-8976-5de18b735ec4))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "IC101") (unit 1)
         )
@@ -6785,7 +6822,7 @@
     (pin "8" (uuid 1793f503-9ea6-4d67-81eb-dd7a5e41be03))
     (pin "9" (uuid 38bb8a46-fafb-4d26-a63b-855305fa649b))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J109") (unit 1)
         )
@@ -6811,7 +6848,7 @@
     (pin "1" (uuid 6bb66b74-3f60-4ad8-9460-be9f4faab142))
     (pin "2" (uuid 1adc1727-cc43-46f5-acb3-b0aaa61ba9ba))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R115") (unit 1)
         )
@@ -6873,7 +6910,7 @@
     (pin "8" (uuid 3ecf22ec-d0eb-4fa7-adbf-1ca71be096c2))
     (pin "9" (uuid af415a26-d627-4a0e-89dd-fab5407d2dd0))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "U102") (unit 1)
         )
@@ -6898,7 +6935,7 @@
     )
     (pin "1" (uuid bd778651-1229-4291-99bc-ce8a7bab7711))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0163") (unit 1)
         )
@@ -6925,7 +6962,7 @@
     (pin "T" (uuid 7d2dc861-dfe3-4dd2-a14b-ca717e062199))
     (pin "TN" (uuid ea769bd8-32e9-4b9b-8a6f-e48ebd54ae9a))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J104") (unit 1)
         )
@@ -6933,25 +6970,25 @@
     )
   )
 
-  (symbol (lib_id "Device:C_Polarized_US") (at 201.295 250.825 0) (unit 1)
+  (symbol (lib_id "Device:C_Polarized_US") (at 201.295 254.635 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d41e7c36-90ab-45cf-8d15-204d5f3772f6)
-    (property "Reference" "C112" (at 204.47 248.92 0)
+    (property "Reference" "C112" (at 204.47 252.73 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "10uF" (at 204.47 251.46 0)
+    (property "Value" "10uF" (at 204.47 255.27 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 201.295 250.825 0)
+    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm" (at 201.295 254.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Datasheet" "~" (at 201.295 250.825 0)
+    (property "Datasheet" "~" (at 201.295 254.635 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 80998a2b-e684-477b-9a61-f48c9ac42501))
     (pin "2" (uuid c8c35273-c683-4c54-a93f-4d10688a58ca))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C112") (unit 1)
         )
@@ -6976,34 +7013,9 @@
     )
     (pin "1" (uuid 291267e0-02d0-47fb-8a3d-345cd3797a21))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0101") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:+3.3V") (at 93.98 59.055 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid d5097cf5-49e8-47fe-8722-ae7574932562)
-    (property "Reference" "#PWR0119" (at 93.98 62.865 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "+3.3V" (at 93.98 53.975 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 93.98 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 93.98 59.055 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid eea9229f-7754-41cb-871e-438efab8a5d0))
-    (instances
-      (project "EurorackScope"
-        (path "/b6082534-8496-42f5-914d-c32eba9832ab"
-          (reference "#PWR0119") (unit 1)
         )
       )
     )
@@ -7027,7 +7039,7 @@
     (pin "1" (uuid f5090eb8-cb47-491a-a9f1-a90785d9aa32))
     (pin "2" (uuid 1fa595d6-5010-4073-9353-04db46231391))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R101") (unit 1)
         )
@@ -7052,7 +7064,7 @@
     )
     (pin "1" (uuid ad8a8510-03fa-42a1-a3f3-9d237eebf8d3))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0148") (unit 1)
         )
@@ -7077,7 +7089,7 @@
     )
     (pin "1" (uuid 46100e04-f79c-4f93-baea-065b211a9729))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0125") (unit 1)
         )
@@ -7102,7 +7114,7 @@
     )
     (pin "1" (uuid dbfa8684-8470-43e7-b91e-019de0613a0b))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0112") (unit 1)
         )
@@ -7128,7 +7140,7 @@
     (pin "1" (uuid 90a25e24-40b7-43ca-a082-07404b97f068))
     (pin "2" (uuid bb05513e-c381-49eb-bd58-51460e67fdb8))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R112") (unit 1)
         )
@@ -7154,7 +7166,7 @@
     (pin "1" (uuid 47d02343-f215-4cdf-bfa1-2ce7d8983a34))
     (pin "2" (uuid fd197822-3a5b-4de0-801c-8b09a45bcef6))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C102") (unit 1)
         )
@@ -7180,7 +7192,7 @@
     (pin "1" (uuid a78727ef-b7ad-475d-b217-03e96c850086))
     (pin "2" (uuid 1f9a626e-f8de-4c82-b0a8-65cbfb539f7f))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R123") (unit 1)
         )
@@ -7209,7 +7221,7 @@
     (pin "S1" (uuid 950b0b42-0c89-4671-aaeb-ad3e95bff81c))
     (pin "S2" (uuid 06cb2282-a79a-4193-a024-eda9ab6273ce))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "SW105") (unit 1)
         )
@@ -7236,7 +7248,7 @@
     (pin "T" (uuid 6bd8e90e-174a-408b-a354-6226d38e3930))
     (pin "TN" (uuid 72ee12ea-0373-4595-956a-42c9e334951c))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "J105") (unit 1)
         )
@@ -7261,7 +7273,7 @@
     )
     (pin "1" (uuid 011c3a61-f076-41f3-b088-dfafa9e8dbe2))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0134") (unit 1)
         )
@@ -7286,7 +7298,7 @@
     )
     (pin "1" (uuid d5f63507-8f1f-46cf-b611-18ba9e00960b))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0123") (unit 1)
         )
@@ -7311,7 +7323,7 @@
     )
     (pin "1" (uuid da3fdd9a-3924-446d-a730-f26d86fc93fc))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0132") (unit 1)
         )
@@ -7337,7 +7349,7 @@
     (pin "1" (uuid b8b09abf-bdc8-4db2-bb71-45d090bc5681))
     (pin "2" (uuid 7d60eada-38a6-458b-b48d-3dc8ef1e4ef6))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "C101") (unit 1)
         )
@@ -7369,7 +7381,7 @@
     (pin "1" (uuid 31bb4b9d-1c7e-4612-8dc8-840033a0f16e))
     (pin "2" (uuid 8ab0fe39-8de0-468f-ae8d-e05c76766ee2))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "D106") (unit 1)
         )
@@ -7395,7 +7407,7 @@
     (pin "1" (uuid 0871cd59-67e8-4153-ae83-a6de52817f67))
     (pin "2" (uuid d10e0fc8-4bc9-449c-8397-c0d826b36fa9))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "R120") (unit 1)
         )
@@ -7420,7 +7432,7 @@
     )
     (pin "1" (uuid 73803c8d-6aad-4a3e-99d5-671e2b2663b6))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0121") (unit 1)
         )
@@ -7445,7 +7457,7 @@
     )
     (pin "1" (uuid 2b08339c-37e3-448c-94fd-7156db803a8c))
     (instances
-      (project "EurorackScope"
+      (project "Quadriscope"
         (path "/b6082534-8496-42f5-914d-c32eba9832ab"
           (reference "#PWR0120") (unit 1)
         )
