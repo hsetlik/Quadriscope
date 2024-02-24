@@ -21,7 +21,7 @@ storage that means 400kB of memory per channel or
 1.6MB total, which should be OK? 
 */ 
 #define SAMPLE_RATE 50000
-#define STORAGE_MS 250
+#define STORAGE_SECS 4
 
 #define DISPLAY_W 360
 #define DISPLAY_H 240
@@ -37,16 +37,21 @@ public:
     EncoderCallback callback;
 };
 //===================================================
-const uint32_t BufferSize = (SAMPLE_RATE * STORAGE_MS) / 1000;
+const size_t BufferSize = SAMPLE_RATE * STORAGE_SECS * 2;
 const float samplePeriodMs = (1000.0f / (float)SAMPLE_RATE);
 class SampleBuffer
 {
 private:
-    uint16_t data[BufferSize];
+    uint16_t* data;
     uint16_t head;
 public:
     SampleBuffer() : head(0)
     {
+        data = (uint16_t*)ps_malloc(BufferSize);
+    }
+    ~SampleBuffer()
+    {
+        free(data);
     }
     void push(uint16_t value)
     {
@@ -96,7 +101,7 @@ private:
 // SPI stuff for the DAC
     SPIClass* fspi;
 // this holds our actual data stream
-    SampleBuffer sampleBuffers[4];
+    SampleBuffer* sampleBuffers;
 
 // these boys get wired into the encoder and button callbacks
     void leftEncTurn(bool up);

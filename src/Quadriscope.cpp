@@ -26,7 +26,8 @@ b3(nullptr),
 b4(nullptr),
 pixels(nullptr),
 selectedChannel(0),
-fspi(nullptr)
+fspi(nullptr),
+sampleBuffers(nullptr)
 {
 
 }
@@ -43,6 +44,7 @@ Quadriscope::~Quadriscope()
     delete b4;
     delete pixels;
     delete fspi;
+    delete sampleBuffers;
 }
 
 void Quadriscope::sampleInterrupt()
@@ -59,9 +61,10 @@ void Quadriscope::sampleInterrupt()
 
 void Quadriscope::init()
 {
-    Serial.begin(9600);
-    log_d("Total PSRAM: %d", ESP.getPsramSize());
-    log_d("Free PSRAM: %d", ESP.getFreePsram());
+    Serial.println("Initializing scope...");
+    sampleBuffers = new SampleBuffer[4];
+
+    /*
     
     //display
     display = new Adafruit_ILI9341(D_CS, D_DCRC, D_MOSI, D_SCK, D_RST, D_MISO);
@@ -110,24 +113,25 @@ void Quadriscope::init()
         auto& c = channels[i];
         c.index = (uint8_t)i;
     }
+    */
 }
 
 void Quadriscope::tick()
 {
     unsigned long now = millis();
-    lEnc->tick();
-    rEnc->tick();
+    // lEnc->tick();
+    // rEnc->tick();
 
-    b1->tick();
-    b2->tick();
-    b3->tick();
-    b4->tick();
+    // b1->tick();
+    // b2->tick();
+    // b3->tick();
+    // b4->tick();
 
     if(now - prevUpdateMs >= FRAME_LENGTH_MS)
     {
         prevUpdateMs = now;
-        drawFrame();
-        updatePixels();
+        //drawFrame();
+        //updatePixels();
     }
 }
 //==========================================================================
