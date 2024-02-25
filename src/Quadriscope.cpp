@@ -64,8 +64,6 @@ void Quadriscope::init()
     Serial.println("Initializing scope...");
     sampleBuffers = new SampleBuffer[4];
 
-    /*
-    
     //display
     display = new Adafruit_ILI9341(D_CS, D_DCRC, D_MOSI, D_SCK, D_RST, D_MISO);
     display->begin();
@@ -113,25 +111,24 @@ void Quadriscope::init()
         auto& c = channels[i];
         c.index = (uint8_t)i;
     }
-    */
 }
 
 void Quadriscope::tick()
 {
     unsigned long now = millis();
-    // lEnc->tick();
-    // rEnc->tick();
+    lEnc->tick();
+    rEnc->tick();
 
-    // b1->tick();
-    // b2->tick();
-    // b3->tick();
-    // b4->tick();
+    b1->tick();
+    b2->tick();
+    b3->tick();
+    b4->tick();
 
     if(now - prevUpdateMs >= FRAME_LENGTH_MS)
     {
         prevUpdateMs = now;
-        //drawFrame();
-        //updatePixels();
+        drawFrame();
+        updatePixels();
     }
 }
 //==========================================================================
@@ -159,7 +156,8 @@ void Quadriscope::updateScreenBuffers()
             float currentMs = 0.0f;
             for(uint16_t x = 0; x < DISPLAY_W; x++)
             {
-
+                float voltage = getVoltageAtMs(i, currentMs);
+                channels[i].screenBuffer[x] = voltageToScreenY(voltage, channels[i].vAmplitude, channels[i].vOffset);
             }
         }
     }
@@ -167,7 +165,29 @@ void Quadriscope::updateScreenBuffers()
 
 void Quadriscope::drawFrame()
 {
-    //TODO
+    updateScreenBuffers();
+    static const uint16_t colors[] = {to565(255, 138, 51), to565(130, 194, 65), to565(133, 213, 255), to565(188, 145, 209)};
+    display->fillScreen(to565(0, 0, 0));
+    for(uint8_t c = 0; c < 4; c++)
+    {
+        if(channels[c].active)
+        {
+            for(uint16_t x = 1; x < DISPLAY_W; x++)
+            {
+                uint16_t y0 = channels[c].screenBuffer[x - 1];
+                uint16_t y1 = channels[c].screenBuffer[x];
+                display->drawLine(x - 1, y0, x, y1, colors[c]);
+            }
+        }
+    }
+}
+
+uint16_t Quadriscope::to565(uint8_t r, uint8_t g, uint8_t b)
+{
+    uint16_t red = (uint16_t)((float)r / 255.0f) * 31.0f;
+    uint16_t green = (uint16_t)((float)g / 255.0f) * 63.0f;
+    uint16_t blue = (uint16_t)((float)b / 255.0f) * 31.0f;
+    return (red << 11) | (green << 5) | blue;
 }
 
 void Quadriscope::updatePixels()

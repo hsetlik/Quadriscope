@@ -17,8 +17,8 @@ Our ADC is 16 bit so this means storing
 sample rate * (STORAGE_MS / 1000) * 2 bytes of data per 
 channel. The MCU has 2MB PSRAM in addition to its 
 onboard RAM, with sample rate of 50kHz and 4 seconds of
-storage that means 400kB of memory per channel or
-1.6MB total, which should be OK? 
+storage that means 400kB of memory per channel which will 
+require us to use most of that PSRAM
 */ 
 #define SAMPLE_RATE 50000
 #define STORAGE_SECS 4
@@ -125,6 +125,7 @@ private:
         return ((uint32_t)b) & ((uint32_t)g << 8) & ((uint32_t)r << 16);
     }
 
+    uint16_t to565(uint8_t r, uint8_t g, uint8_t b);
 public: // main.cpp should only have to touch this code from here down
     Quadriscope();
     ~Quadriscope();
